@@ -1,0 +1,45 @@
+primer aporte de el ptoyecto 
+
+body{
+    background-color: rgb(39, 61, 49);
+}
+
+.lista
+{
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    
+}
+a
+{
+    color: rgb(199, 153, 153);
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    color: aqua;
+}
+
+h5
+{
+    display: flex;
+    justify-content: center;
+    vertical-align: text-top;
+    color: rgb(3, 233, 137);
+}
+head{
+    display: flex;
+    position: relative;
+    justify-content: right;
+}
+
