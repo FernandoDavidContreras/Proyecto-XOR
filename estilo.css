@@ -1,45 +1,42 @@
-primer aporte de el ptoyecto 
+/*primer aporte de el ptoyecto */
 
 body{
-    background-color: rgb(39, 61, 49);
+    font-family: Serif;
+    background-color: #1E2025;
+    margin: 0;
 }
 
-.lista
-{
-    color: white;
+.principal{
+    padding-bottom: 20px;
+}
+
+.img img{
+    margin-top: 40px;
+    padding-left: 60px;
+    width: 10em;
+
+}
+
+.opciones {
+    height:50px;
+    background-color: #26282d;
+    margin-top: 20px;
+}
+
+.lista{
+    padding-top: 20px;
+    margin: 0;
+    background-color: #26282d;
     list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    gap: 30px;
+    letter-spacing: 1px;
     font-weight: 700;
     
 }
-a
-{
-    color: rgb(199, 153, 153);
-}
-h1
-{
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    align-items: center;
-    color: aqua;
-}
 
-h5
-{
-    display: flex;
-    justify-content: center;
-    vertical-align: text-top;
-    color: rgb(3, 233, 137);
+.lista a{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
-head{
-    display: flex;
-    position: relative;
-    justify-content: right;
-}
-
