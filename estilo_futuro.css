@@ -1,13 +1,37 @@
+.cuerpoFuturo{
+    background-color: black;
+}
 .tituloF{
 height: 75px;
 background-image: url(https://static.wixstatic.com/media/11062b_f71f178b5f494268bf2f5420c4820ae3~mv2.jpg/v1/fill/w_1600,h_150,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_f71f178b5f494268bf2f5420c4820ae3~mv2.jpg);
 }
 .txtTituloF{
-    position: relative;
-    margin: 17px 0px 28px calc((100% - 980px) * 0.5);
-    left: 314px;
-    grid-area: 1 / 1 / 2 / 2;
-    justify-self: start;
-    align-self: start;
     color: rgb(255, 255, 255);
+    margin: 17px 0px 28px calc((100% - 900px) * 0.5);
+    position: relative;
+    left: 314px;
+    
+    font-size: 42px;
+    font-family: "Latin Modern Roman";
+    font-style: italic;
+    position: relative;
+    
+}
+
+.card1{
+    height: 450px;
+    background-image: url(https://static.wixstatic.com/media/11062b_799acab976b94a2792fac42f75fe2cfe~mv2.jpg/v1/fill/w_1600,h_561,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_799acab976b94a2792fac42f75fe2cfe~mv2.jpg);
+}
+
+.contenidoIzquierdo{
+    background-color: white;
+    width: 500px;
+}
+.contenidoCentro{
+    background-color: white;
+    width: 500px;
+}
+.contenidoDerecho{
+    background-color: white;
+    width: 500px;
 }
