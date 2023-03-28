@@ -1,3 +1,47 @@
-h3{
+body{
+    background-color: #15212a;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    text-transform: none;
+    align-items: center;
+    color: white;
     
+}
+.izquierda{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 10px;
+}
+.derecha{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 10px;
+}
+.izquierda2{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 10px;
+}
+
+.derecha2 {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 10px;
+}
+
+p {
+    text-emphasis-color: white;
+}
+br{
+    text-decoration-color: white;
 }
