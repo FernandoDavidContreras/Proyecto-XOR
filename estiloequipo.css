@@ -1,6 +1,10 @@
 body{
     background-color: #15212a;
 }
+
+.imggeneral{
+    text-align: center;
+}
 .text{
     display: flex;
     justify-content: center;
@@ -9,12 +13,18 @@ body{
     color: white;
     
 }
+.primeraimagen{
+    text-align: left;
+}
 .izquierda{
     width: 400px;
     margin-left: auto;
     margin-right: auto;
     
     padding-top: 10px;
+}
+.segundaimagen{
+    text-align: right;
 }
 .derecha{
     width: 400px;
@@ -23,6 +33,9 @@ body{
 
     padding-top: 10px;
 }
+.terceraimagen{
+    text-align: left;
+}
 .izquierda2{
     width: 400px;
     margin-left: auto;
@@ -30,7 +43,9 @@ body{
     
     padding-top: 10px;
 }
-
+.cuartaimagen{
+    text-align: right;
+}
 .derecha2 {
     width: 400px;
     margin-left: auto;
