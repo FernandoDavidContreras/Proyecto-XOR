@@ -1,8 +1,48 @@
 body{
     background-color: #15212a;
 }
+.principal{
+    padding-bottom: 20px;
+}
+.img img{
+    margin-top: 40px;
+    padding-left: 60px;
+    width: 10em;
+
+}
+
+.opciones {
+    height:50px;
+    background-color: #26282d;
+    margin-top: 20px;
+}
+
+.lista{
+    padding-top: 20px;
+    margin: 0;
+    background-color: #26282d;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    
+}
+
+.lista a{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+
+}
 .genim{
     text-align: center;
+    position: relative;
+    top: -160px;
 }
 
 .imggeneral{
@@ -11,57 +51,30 @@ body{
 }
 .text{
     display: flex;
-    justify-content: center;
-    text-transform: none;
-    align-items: center;
-    color: white;
-    
+    color: #4c2882;
+    position: relative;
+    left: 50px;    
+    top: 200px;
 }
-.primeraimagen{
-    text-align: left;
+.textdos{
+    display: flex;
+    position: relative;
+    left: 330px;
+    top: -150px;
+    color: #4c2882;
 }
-.izquierda{
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    padding-top: 10px;
+.texttres{
+    display: flex;
+    position: relative;
+    left: 700px;
+    top: -65px;
+    color: #4c2882;
 }
+.textcuatro{
+    display: flex;
+    position: relative;
+    left: 940px;
+    top: 300px;
+    color: #4c2882;
 
-.segundaimagen{
-    text-align: right;
-}
-.derecha{
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-
-    padding-top: 10px;
-}
-.terceraimagen{
-    text-align: left;
-}
-.izquierda2{
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    padding-top: 10px;
-}
-.cuartaimagen{
-    text-align: right;
-}
-.derecha2 {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    padding-top: 10px;
-}
-
-p {
-    text-emphasis-color: white;
-}
-br{
-    text-decoration-color: white;
 }
