@@ -1,0 +1,60 @@
+<p>
+
+</p>
+
+<div class="primeraimagen">
+    <img class="izquierda"src="IMAGENES/margarita amezquita.jpg" alt="NO CARGO LA IMAGEN">
+    
+</div>
+<div class="segundaimagen">
+    <img class="derecha"src="IMAGENES/Juan pablo.jpg" alt="">
+</div>
+<div class="terceraimagen">
+    <img class="izquierda2"src="IMAGENES/juan miguel.jpg" alt="">
+</div>
+<div class="cuartaimagen">
+    <img class="derecha2"src="IMAGENES/hugo daniel.jpg" alt="">
+</div>
+
+
+cssssss
+.primeraimagen{
+    text-align: left;
+}
+.izquierda{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 10px;
+}
+
+.segundaimagen{
+    text-align: right;
+}
+.derecha{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 10px;
+}
+.terceraimagen{
+    text-align: left;
+}
+.izquierda2{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 10px;
+}
+.cuartaimagen{
+    text-align: right;
+}
+.derecha2 {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
