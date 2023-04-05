@@ -1,0 +1,68 @@
+body{
+  font-family: Serif;
+  background-color: #1E2025;
+  margin: 0;
+}
+
+/*Estilos para la barra de navegacion*/
+
+.principal{
+  padding-bottom: 10px;
+}
+
+.img img{
+  margin-top: 40px;
+  padding-left: 60px;
+  width: 10em;
+
+}
+
+.opciones {
+  height:50px;
+  background-color: #26282d;
+  margin-top: 20px;
+}
+
+.lista{
+  padding-top: 20px;
+  margin: 0;
+  background-color: #26282d;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.lista a{
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.logo{
+  width: 100px;
+  height: 80px;
+}
+/*2da parte*/
+
+.fondo1{
+  position: relative;
+  left: 12%;
+  top: 22px;
+  width: 980px;
+  height: 166px;
+}
+.tito{
+  text-align: center;
+  color: white;
+  position: relative;
+  left: 0%;
+  top: -155px;
+}
+
+.tito p{
+  position: relative;
+  text-align: center;
+}
+

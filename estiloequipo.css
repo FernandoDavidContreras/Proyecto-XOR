@@ -1,10 +1,8 @@
-body {
-    
-    background: #4B5050;
-    margin: 10px;
-    padding: 10px;
-    width: 330px;}
-
+body{
+    font-family: Serif;
+    background-color: #1E2025;
+    margin: 0;
+}
 
 body{
     background-color: #15212a;
@@ -13,22 +11,27 @@ body{
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+
+  
+/*Estilos para la barra de navegacion*/
+  
 .principal{
     padding-bottom: 20px;
 }
+  
 .img img{
     margin-top: 40px;
     padding-left: 60px;
     width: 10em;
-
+  
 }
-
+  
 .opciones {
     height:50px;
     background-color: #26282d;
     margin-top: 20px;
 }
-
+  
 .lista{
     padding-top: 20px;
     margin: 0;
@@ -38,9 +41,7 @@ body{
     gap: 30px;
     letter-spacing: 1px;
     font-weight: 700;
-    
-}
-
+} 
 .lista a{
     font-size: 14px;
     color: #FFFFFF;
@@ -51,65 +52,70 @@ body{
     height: 80px;
 
 }
-.genim{
-    text-align: center;
-    position: relative;
-    top: -150px;
-}
+
+/*parte equipo*/
 
 .imggeneral{
     position: relative;
-    left: 130px;
-}
-
-.imggeneral{
+    left: 12%;
     width: 980px;
     height: auto;
 }
-.text{
-    display: flex;
-    color: white;
+
+.genim{
     position: relative;
-    left: 115px;    
-    top: 520px;
+    color: white;
+    text-align:end;
+}
+
+.text{
+    position: relative;
+    right: 75%;
+    top: 5px;
 }
 .textdos{
-    display: flex;
     position: relative;
-    left: 330px;
-    top: 5px;
-    color: white;
+    right: 55%;
 }
 .texttres{
-    display: flex;
     position: relative;
-    left: 700px;
-    top: 95px;
-    color: white;
+    right: 30%;
+    top: -70px;
 }
 .textcuatro{
-    display: flex;
     position: relative;
-    left: 940px;
-    top: 610px;
-    color: white;
-
+    right: 15%;
+    top: -215px;
 }
+
+.box1{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+    width: 980px;
+    height: 150px;
+    background:#1E2025;
+    top: -18px;
+    left: 12%;
+}
+    
+.box2{
+    position: relative;
+    width: 1300px;
+    height: 150px;
+    background:#1E2025;
+    top: 25px;
+    
+}
+
 .final{
-    position: absolute;
-    left: 35%;
-}
-
-footer{
+    color: white;
     position: relative;
     text-align: center;
-    top: -100px;
-    color: white;
+    top: 5px;
 }
-.copyr {
+.copyr{
     position: relative;
-    text-align: center;
-    top: 100px;
-    color: white;
+    top: 70px;
 }
-
