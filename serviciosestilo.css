@@ -66,3 +66,64 @@ body{
   text-align: center;
 }
 
+.box1{
+  position: relative;
+  width: 480px;
+  height: 460px;
+  background-color: #7ca3af;
+  top: -115px;
+  left: 12%;
+}
+.box2{
+  position: relative;
+  width: 480px;
+  height: 460px;
+  background-color: #fcfcf9;
+  top: 383px;
+  position: absolute;
+  left: 50.6%;
+}
+.box3{
+  position: relative;
+  width: 480px;
+  height: 460px;
+  background-color: white;
+  top: -90px;
+  left: 12%;
+}
+.box4{
+  position: relative;
+  width: 480px;
+  height: 460px;
+  background-color: #fcfcf9;
+  top: 868px;
+  position: absolute;
+  left: 50.6%;
+}
+
+.f3{
+  position: relative;
+  width: 1290px;
+  height: 555px;
+  top: -60px;
+}
+
+.box8{
+  position: relative;
+  width: 1300px;
+  height: 150px;
+  background:#1E2025;
+  top: 0px;
+  
+}
+
+.final{
+  color: white;
+  position: relative;
+  text-align: center;
+  top: -25px;
+}
+.copyr{
+  position: relative;
+  top: 70px;
+}
