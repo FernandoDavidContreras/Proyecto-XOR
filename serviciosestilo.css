@@ -65,40 +65,88 @@ body{
   position: relative;
   text-align: center;
 }
-
+.textuno{
+  position: relative;
+  color: black;
+  top: -350px;
+  left: 40%;
+}
 .box1{
   position: relative;
   width: 480px;
-  height: 460px;
-  background-color: #7ca3af;
+  height: 350px;
+  background-color: #94b8c5;
   top: -115px;
   left: 12%;
+}
+.fottres{
+  position: inherit;
+  width: 480px;
+  height: auto;
+  
+}
+.textdos{
+  position: relative;
+  color: black;
+  top: 250px;
+  left: -40%;
+                transform: rotate(90deg);
 }
 .box2{
   position: relative;
   width: 480px;
-  height: 460px;
+  height: 361px;
   background-color: #fcfcf9;
   top: 383px;
   position: absolute;
   left: 50.6%;
 }
+.fotdos{
+  position: inherit;
+  width: 480px;
+  height: 361px;
+
+
+}
+.texttres{
+  position: relative;
+  color: black;
+  top: -350px;
+  left: 10%;
+}
 .box3{
   position: relative;
   width: 480px;
-  height: 460px;
+  height: 360px;
   background-color: white;
   top: -90px;
   left: 12%;
 }
+.fotuno{
+  position: inherit;
+
+  width: 480px;
+  height: 361px;
+}
+.textcuatro{
+  position: relative;
+  color: black;
+  top: -250px;
+  left: 10%;
+}
 .box4{
   position: relative;
   width: 480px;
-  height: 460px;
+  height: 360px;
   background-color: #fcfcf9;
-  top: 868px;
+  top: 759px;
   position: absolute;
   left: 50.6%;
+}
+.fotcuatro{
+  width: 480px;
+  height: 360px;
+
 }
 
 .f3{

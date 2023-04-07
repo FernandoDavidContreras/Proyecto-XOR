@@ -57,10 +57,48 @@ body{
 
 .imggeneral{
     position: relative;
-    left: 12%;
-    width: 980px;
+    left: 0.5%;
+    width: 970px;
     height: auto;
+    top: 3px;
 }
+
+/*extra*/
+.box {
+    position: relative;
+    --border-size: 3px;
+    --border-angle: 0turn;
+    width: 980px;
+    height: 437px;
+    left: 12%;
+    background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+    background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-animation: bg-spin 3s linear infinite;
+            animation: bg-spin 3s linear infinite;
+  }
+  @-webkit-keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+  @keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+  .box:hover {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+  
+  @property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  }
+  
 
 .genim{
     position: relative;
