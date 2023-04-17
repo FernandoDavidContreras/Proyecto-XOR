@@ -38,9 +38,20 @@ body{
 
 .lista a{
   font-size: 14px;
-  color: #FFFFFF;
+  color: #00B3A4;
   text-decoration: none;
 }
+
+.lista a:hover{
+  color: #ffffff;
+}
+
+
+.lista a:active{
+  color: #ffffff;
+}
+
+
 
 /*Estilos para el apartado de descripcion*/
 
@@ -96,5 +107,125 @@ body{
 .piePagina{
   padding-top: 50px;
   text-align: center;
-  color: #FFFFFF;
+  color: #00B3A4;
+}
+
+
+
+/*Estilos para la pagina de contacto*/
+
+.datos{
+  width: 100%;
+  height: 200px;
+  float: left;
+  margin-bottom: 20%;
+}
+.redes{
+  width: 45%;
+  margin: 0;
+  margin-left: 4%;
+  padding: 0;
+  float: left;
+  height: 438px;
+  background-image: url(IMAGENES/redesSocialesFondo.webp);
+}
+
+.datos .redes p, h1{
+
+  text-align: center;
+  color: #00B3A4;
+  padding-right: 17%;
+}
+
+.redes h1{
+  padding-top:22% ;
+  font-weight: normal;
+  font-size: 3em;
+}
+
+.listaRedes{
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+.imagen1{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(IMAGENES/facebook.png);
+  width: 60px;
+  height: 60px;
+  padding-right:20px;
+  float: left;
+}
+
+.imagen1:hover{
+  background-image: url(IMAGENES/facebookSInFondo.png);
+}
+
+.imagen2{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(IMAGENES/gmail.png);
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  padding-right:20px;
+  float: left;
+}
+
+
+.imagen2:hover{
+  background-image: url(IMAGENES/gmailSinfondo.png);
+}
+.imagen3{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(IMAGENES/instagram.png);
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  padding-right:20px;
+  float: left;
+}
+
+.imagen3:hover{
+  background-image: url(IMAGENES/instagramSinfondo.png);
+}
+
+.imagen4{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(IMAGENES/twitter.png);
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  padding-right:20px;
+  float: left;
+}
+
+
+.imagen4:hover{
+  background-image: url(IMAGENES/gorjeo.png);
+}
+
+.redessociales{
+  padding-left:25%;
+  padding-right:6px;
+}
+
+
+.logos img{
+  width: 50%;
+  padding-top:18% ;
+  padding-left:25% ;
+}
+
+.logos{
+  width: 45%;
+  height: 438px;
+  margin: 0;
+  margin-right: 4%;
+  padding: 0;
+  float: left;
+  background-image: url(IMAGENES/fondoNegroBurbujas.webp);
 }
