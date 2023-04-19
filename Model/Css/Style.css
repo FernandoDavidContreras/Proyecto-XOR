@@ -1,0 +1,50 @@
+/*Cuerpo*/
+body{
+  font-family: Serif;
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+/*Estilos para la barra de navegacion*/
+.principal{
+  padding-bottom: 20px;
+}
+
+.espacio_logo .logo{
+  margin-top: 40px;
+  padding-left: 60px;
+  width: 10em;
+
+}
+
+.opciones {
+  height:50px;
+  background-color: #26282d;
+  margin-top: 20px;
+}
+
+.lista{
+  padding-top: 20px;
+  margin: 0;
+  background-color: #26282d;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.lista a{
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/*Fin barra de navegacion*/
+/*------------------------------*/
+
+/*Estilo Futuro*/
+
+
+/*Fin Estilo Futuro*/
+
+
