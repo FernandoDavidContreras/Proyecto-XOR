@@ -37,6 +37,10 @@ body{
 
 .lista a{
     font-size: 14px;
-    color: #FFFFFF;
+    color: #00B3A4;
     text-decoration: none;
+}
+
+.lista a:hover{
+    color: #FFFFFF;
 }
