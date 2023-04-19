@@ -40,11 +40,221 @@ body{
   text-decoration: none;
 }
 /*Fin barra de navegacion*/
+
 /*------------------------------*/
 
 /*Estilo Futuro*/
+.cuerpoFuturo{
+  width: 100%;
+  height: 100%;
+  max-width: 1824px;
+}
+.tituloF{
+  height: 120px;
 
+}
+.txtTituloF{
+  background-image: url(https://static.wixstatic.com/media/11062b_f71f178b5f494268bf2f5420c4820ae3~mv2.jpg/v1/fill/w_1600,h_150,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_f71f178b5f494268bf2f5420c4820ae3~mv2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
 
+  font-size: 56px;
+  font-family: "playfair display";
+  text-align: center;
+  margin-top: auto;
+  padding: 25px;
+  color: rgb(255, 255, 255);
+}
+.txt{
+  font-size: 18px;
+  font-family: "playfair display", serif;
+  line-height: 1.7;
+}
+.informacionCard{
+  display: flex;
+  align-items: center;
+  height: 450px;
+  width: 100%;
+}
+.contenidoIzquierdo{
+  width: 35%;
+  float: left;
+  padding: 20px;
+}
+.contenidoCentro{
+  float: center;
+}
+.contenidoDerecho{
+  width: 35%;
+  float: right;
+  padding: 20px;
+}
+.card1{
+  background-position: center center;
+  background-image: url(https://static.wixstatic.com/media/11062b_799acab976b94a2792fac42f75fe2cfe~mv2.jpg/v1/fill/w_1600,h_561,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_799acab976b94a2792fac42f75fe2cfe~mv2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  box-sizing: border-box;
+}
+.txt1{ 
+  color:rgb(255, 255, 255);
+  width: 175.6px;
+  height: 157.5px;
+}
+.card2{
+  background-position: center center;
+  background-image: url(https://static.wixstatic.com/media/11062b_a37fe77cd79c4de48701b7ea61a58ca2~mv2.jpg/v1/fill/w_1600,h_565,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_a37fe77cd79c4de48701b7ea61a58ca2~mv2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+}
+.txt2{
+  color:rgb(255, 255, 255);
+  width: 251.6px;
+  height: 157.5px;
+}
+.card3{
+  background-position: center center;
+  background-image: url(https://static.wixstatic.com/media/11062b_f0d303b2a52f49f0a0c77d49f58d7c25~mv2.jpg/v1/fill/w_1600,h_545,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_f0d303b2a52f49f0a0c77d49f58d7c25~mv2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+}
+.txt3{
+  color:rgb(0, 0, 0);
+  margin-top: 75px;
+  width: 251.6px;
+  height: 157.5px;
+}
+.img1{
+  width: 402px;
+}
+.img2{
+  width: 454px;
+}
+.img3{
+  width: 454px;
+}
+
+@media only screen and (max-width : 912px){
+  .txtTituloF{
+      background-image: url(https://static.wixstatic.com/media/11062b_f71f178b5f494268bf2f5420c4820ae3~mv2.jpg/v1/fill/w_400,h_98,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_f71f178b5f494268bf2f5420c4820ae3~mv2.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+      position: relative;
+
+      font-size: 26px;
+      font-family: "playfair display";
+      text-align: center;
+      margin-top: auto;
+      color: rgb(255, 255, 255);
+  }
+  .card1{
+      background-image: url(https://static.wixstatic.com/media/11062b_799acab976b94a2792fac42f75fe2cfe~mv2.jpg/v1/fill/w_400,h_508,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_799acab976b94a2792fac42f75fe2cfe~mv2.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center center;
+      position: relative;
+      box-sizing: border-box;
+  }
+  .card2{
+      background-position: center center;
+      background-image: url(https://static.wixstatic.com/media/11062b_a37fe77cd79c4de48701b7ea61a58ca2~mv2.jpg/v1/fill/w_400,h_470,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_a37fe77cd79c4de48701b7ea61a58ca2~mv2.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+      position: relative;
+  }
+  .card3{
+      background-position: center center;
+      background-image: url(https://static.wixstatic.com/media/11062b_f0d303b2a52f49f0a0c77d49f58d7c25~mv2.jpg/v1/fill/w_400,h_413,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_f0d303b2a52f49f0a0c77d49f58d7c25~mv2.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+      position: relative;
+  }
+  .img1{
+      width: 252px;
+      float: left;
+  }
+  .img2{
+      width: 304px;
+      float: right;
+  }
+  .img3{
+      width: 304px;
+      float: left;
+  }
+
+}
+
+@media only screen and (max-width : 430px){
+  .txtTituloF{
+      background-image: url(https://static.wixstatic.com/media/11062b_f71f178b5f494268bf2f5420c4820ae3~mv2.jpg/v1/fill/w_400,h_98,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_f71f178b5f494268bf2f5420c4820ae3~mv2.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+      position: relative;
+
+      font-size: 26px;
+      font-family: "playfair display";
+      text-align: center;
+      margin-top: auto;
+      color: rgb(255, 255, 255);
+  }
+  .card1{
+      background-image: url(https://static.wixstatic.com/media/11062b_799acab976b94a2792fac42f75fe2cfe~mv2.jpg/v1/fill/w_400,h_508,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_799acab976b94a2792fac42f75fe2cfe~mv2.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center center;
+      position: relative;
+  }
+  .card2{
+      background-position: center center;
+      background-image: url(https://static.wixstatic.com/media/11062b_a37fe77cd79c4de48701b7ea61a58ca2~mv2.jpg/v1/fill/w_400,h_470,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_a37fe77cd79c4de48701b7ea61a58ca2~mv2.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+      position: relative;
+  }
+  .card3{
+      background-position: center center;
+      background-image: url(https://static.wixstatic.com/media/11062b_f0d303b2a52f49f0a0c77d49f58d7c25~mv2.jpg/v1/fill/w_400,h_413,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_f0d303b2a52f49f0a0c77d49f58d7c25~mv2.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+      position: relative;
+  }
+  .img1{
+      width: 202px;
+      
+  }
+  .img2{
+      width: 01px;
+      
+  }
+  .txt2{
+      color:rgb(255, 255, 255);
+      margin-bottom: 300px;
+  }
+
+  .img3{
+      width: 254px;
+      float: left;
+  }
+  .txt3{
+      color:rgb(255, 255, 255);
+      margin-bottom: 300px;
+      margin-left: -100px   ;
+  }
+}
 /*Fin Estilo Futuro*/
 
 
