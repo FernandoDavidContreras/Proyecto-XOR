@@ -1,16 +1,105 @@
 /*Cuerpo*/
 body{
   font-family: Serif;
-  background-color: rgb(0, 0, 0);
+  background-color: #1E2025;
   margin: 0;
 }
 
+/*Pagina home*/
+
+.home{
+  width: 100%;
+  height: 450px;
+  float: left;
+  margin-bottom: 3%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  margin-top: 2%;
+  background-color: #26282d;
+}
+
+.home1{
+  width: 45%;
+  margin: 0;
+  margin-left: 4%;
+  padding: 0;
+  float: left;
+  height: 100%;
+  background-image: url(../Img/home1.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.home1 img{
+  width: 19%;
+  padding-left: 75%;
+}
+
+.home1 h2{
+  margin-bottom: 10px;
+  text-align: left;
+  color: #00B3A4;
+  padding-right: 4%;
+  padding-left: 4%;
+}
+.home1 p{
+  padding-top: 3%;
+  margin-bottom: 0px;
+  text-align: left;
+  color: #00B3A4;
+  padding-right: 39%;
+  padding-left: 4%;
+}
+
+
+
+.home2{
+  width: 45%;
+  height: 100%;
+  margin: 0;
+  margin-right: 4%;
+  padding: 0;
+  float: left;
+  background-size: 100%;
+  background-image: url(../Img/home2.webp);
+  background-repeat: no-repeat;
+}
+
+.home2 h2{
+  margin-bottom: 10px;
+  text-align: center;
+  color: #00B3A4;
+  padding-right: 4%;
+  padding-left: 4%;
+}
+.home2 p{
+  padding-top: 3%;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #00B3A4;
+  padding-right: 14%;
+  padding-left: 14%;
+}
+
+
+/*Fin de la configuracion de la pagina home*/
+
+/*Estilos para el formato del pie de pagina*/
+
+.piePagina{
+  padding-top: 0px;
+  text-align: center;
+  color: #00B3A4;
+}
+
+
 /*Estilos para la barra de navegacion*/
+
 .principal{
   padding-bottom: 20px;
 }
 
-.espacio_logo .logo{
+.img img{
   margin-top: 40px;
   padding-left: 60px;
   width: 10em;
@@ -36,10 +125,18 @@ body{
 
 .lista a{
   font-size: 14px;
-  color: #FFFFFF;
+  color: #00B3A4;
   text-decoration: none;
 }
-/*Fin barra de navegacion*/
+
+.lista a:hover{
+  color: #ffffff;
+}
+
+
+.lista a:active{
+  color: #ffffff;
+}
 
 /*------------------------------*/
 
@@ -257,6 +354,7 @@ body{
 }
 /*Fin Estilo Futuro*/
 
+/* Estilo rama fernando*/
 
 /*Estilo Descipcion*/
 
@@ -264,7 +362,7 @@ body{
   height: 350px;
   margin-top: 40px;
   margin-bottom: 20px;
-  background-image:url(IMAGENES/imgDescripcion.webp);
+  background-image:url(../Img/imgDescripcion.webp);
   background-size: contain;
 }
 
@@ -311,16 +409,6 @@ body{
 }
 
 
-
-/*Estilos para el formato del pie de pagina*/
-
-.piePagina{
-  padding-top: 50px;
-  text-align: center;
-  color: #00B3A4;
-}
-
-
 /*Estilos para la pagina de contacto*/
 
 .datos{
@@ -336,10 +424,10 @@ body{
   padding: 0;
   float: left;
   height: 438px;
-  background-image: url(IMAGENES/redesSocialesFondo.webp);
+  background-image: url(../Img/redesSocialesFondo.webp);
 }
 
-.datos .redes p, h1{
+.datos .redes p, h1 {
 
   margin-bottom: 30px;
   text-align: center;
@@ -361,7 +449,7 @@ body{
 .imagen1{
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(IMAGENES/facebook.png);
+  background-image: url(../Img/facebook.png);
   width: 60px;
   height: 60px;
   padding-right:20px;
@@ -369,13 +457,13 @@ body{
 }
 
 .imagen1:hover{
-  background-image: url(IMAGENES/facebookSInFondo.png);
+  background-image: url(../Img/facebookSInFondo.png);
 }
 
 .imagen2{
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(IMAGENES/gmail.png);
+  background-image: url(../Img/gmail.png);
   width: 60px;
   height: 60px;
   margin: 0;
@@ -385,12 +473,12 @@ body{
 
 
 .imagen2:hover{
-  background-image: url(IMAGENES/gmailSinfondo.png);
+  background-image: url(../Img/gmailSinfondo.png);
 }
 .imagen3{
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(IMAGENES/instagram.png);
+  background-image: url(../Img/instagram.png);
   width: 60px;
   height: 60px;
   margin: 0;
@@ -399,13 +487,13 @@ body{
 }
 
 .imagen3:hover{
-  background-image: url(IMAGENES/instagramSinfondo.png);
+  background-image: url(../Img/instagramSinfondo.png);
 }
 
 .imagen4{
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(IMAGENES/twitter.png);
+  background-image: url(../Img/twitter.png);
   width: 60px;
   height: 60px;
   margin: 0;
@@ -415,7 +503,7 @@ body{
 
 
 .imagen4:hover{
-  background-image: url(IMAGENES/gorjeo.png);
+  background-image: url(../Img/gorjeo.png);
 }
 
 .redessociales{
@@ -437,6 +525,492 @@ body{
   margin-right: 4%;
   padding: 0;
   float: left;
-  background-image: url(IMAGENES/fondoNegroBurbujas.webp);
+  background-image: url(../Img/fondoNegroBurbujas.webp);
 }
 
+/*Configuracion para hacer responsiva la pagina de descripcion y contacto f*/
+
+
+/*Configuracion de descripcion para ser responsiva*/
+@media (min-width: 900px) and (max-width: 1380px)  {
+  .descripcion{
+    background-image: url(../Img/fondeDescripcion.png);
+  }
+
+  /*Estilos de la pagina principal*/
+  .home{
+    margin-bottom: 70px;
+    height: 80%;
+  }
+
+  .home1{
+    width: 80%;
+    float: none;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .home2{
+    width: 80%;
+    float: none;
+    margin: auto;
+    margin-bottom: 40px;
+    background-size: 80%;
+  }
+
+  /* Configuracion de la pagina contacto*/
+
+  .datos{
+    margin-bottom: 70px;
+    height: 80%;
+  }
+
+  .datos .redes p, h1 {
+    padding-right: 0;
+  }
+
+
+  .redes{
+    width: 80%;
+    float: none;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .redessociales{
+    width: 100%;
+    padding-left:35%;
+    padding-right:0px;
+  }
+
+  .logos{
+    width: 80%;
+    float: none;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+
+}
+
+@media (min-width: 650px) and (max-width: 900px)  {
+
+  .descripcion{
+    background-image: url(../Img/fondeDescripcion.png);
+  }
+
+
+  /* Configuracion de la pagina contacto*/
+  .datos{
+    margin-bottom: 70px;
+    height: 80%;
+  }
+
+  .datos .redes p, h1 {
+    padding-right: 0;
+  }
+
+
+  .redes{
+    width: 80%;
+    float: none;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .redessociales{
+    width: 100%;
+    padding-left:25%;
+    padding-right:0px;
+  }
+
+  .logos{
+    width: 80%;
+    float: none;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  /* Configuracion de la pagina descripcion*/
+
+  .listaImg{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    float: none;
+  }
+
+  .contenido{
+    background-image: url(../Img/fondeDescripcion.png);
+    width: 100%;
+    height: 50%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    float: none;
+  }
+
+  .contenido p{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+  }
+
+  .contenido h2{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .piePagina{
+    margin-top: 200px;
+  }
+
+}
+
+
+
+@media (min-width: 410px) and (max-width: 650px)  {
+  .descripcion{
+    width: 100%;
+    height: 500px;
+    background-image: none;
+    margin-top: 0;
+  }
+
+
+  /* Configuracion de la pagina contacto*/
+  .datos{
+    margin-bottom: 9px;
+    height: 800px;
+  }
+
+  .datos .redes p, h1 {
+    padding-right: 0;
+
+  }
+  .datos .redes h1 {
+    font-size: 2em;
+  }
+
+  .datos .redes p{
+    font-size: 1em;
+  }
+
+  .imagen1,.imagen2,.imagen3,.imagen4{
+    width: 45px;
+    height: 45px;
+    padding-right: 10px;
+    float: left;
+  }
+
+
+
+  .redes{
+    width: 80%;
+    float: none;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .redessociales{
+    width: 100%;
+    padding-left:30%;
+    padding-right:29%;
+  }
+
+  .logos{
+    width: 80%;
+    float: none;
+    margin: auto;
+    margin-bottom: 1px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+
+  /* Configuracion de la pagina descripcion*/
+
+  .listaImgCenter{
+    padding-left: 19%;
+    padding-bottom: 50px;
+  }
+
+  .listaImg{
+    background-image: url(../Img/fondeDescripcion.png);
+    width: 100%;
+    padding-top: 5%;
+    float: none;
+    margin-bottom: 30px;
+  }
+  .listaImg p{
+    margin-top: 19px;
+    margin-left: 53px;
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+
+  .contenido{
+    background-image: url(../Img/fondeDescripcion.png);
+    width: 100%;
+    float: none;
+    padding-bottom: 50px;
+  }
+
+  .contenido p{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .contenido h2{
+    font-size: 17px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .piePagina{
+    margin-top: 0px;
+  }
+}
+
+
+
+@media (min-width: 220px) and (max-width: 410px)  {
+
+  /* Configuracion de la pagina contacto*/
+  .datos{
+    margin-bottom: 9px;
+    height: 710px;
+  }
+
+  .datos .redes p, h1 {
+    padding-right: 0;
+
+  }
+  .datos .redes h1 {
+    font-size: 1.5em;
+  }
+
+  .redes h1{
+    padding-top: 33%;
+  }
+
+  .datos .redes p{
+    font-size: .8em;
+  }
+
+  .imagen1,.imagen2,.imagen3,.imagen4{
+    width: 45px;
+    height: 45px;
+    padding-right: 40px;
+    margin-bottom: 15px;
+    float: none;
+  }
+
+
+
+  .redes{
+    width: 80%;
+    float: none;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .redessociales{
+    width: 100%;
+    padding-left:40%;
+    padding-right:20%;
+  }
+
+  .logos{
+    width: 80%;
+    float: none;
+    margin: auto;
+    margin-bottom: 1px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  /* Configuracion de la pagina descripcion*/
+  .listaImgCenter{
+    padding-left: 15%;
+  }
+
+
+  .descripcion{
+    width: 100%;
+    height: 480px;
+    background-image: none;
+  }
+
+
+  .listaImgCenter{
+    padding-left: 15%;
+    padding-bottom: 50px;
+  }
+
+  .listaImg{
+    background-image: url(../Img/fondeDescripcion.png);
+    width: 100%;
+    padding-top: 5%;
+    float: none;
+    margin-bottom: 30px;
+  }
+  .listaImg p{
+    margin-top: 19px;
+    margin-left: 53px;
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+
+  .contenido{
+    background-image: url(../Img/fondeDescripcion.png);
+    width: 100%;
+    float: none;
+    padding-bottom: 50px;
+  }
+
+  .contenido p{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .contenido h2{
+    font-size: 17px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .piePagina{
+    margin-top: 37%;
+  }
+
+
+}
+
+
+@media (max-width: 220px)  {
+
+
+  /* Configuracion de la pagina contacto*/
+  .datos{
+    margin-bottom: 9px;
+    height: 600px;
+  }
+
+  .datos .redes p, h1 {
+    padding-right: 0;
+
+  }
+  .datos .redes h1 {
+    font-size: 1em;
+  }
+
+  .redes h1{
+    padding-top: 33%;
+  }
+
+  .datos .redes p{
+    font-size: .5em;
+  }
+
+  .imagen1,.imagen2,.imagen3,.imagen4{
+    width: 45px;
+    height: 45px;
+    padding-right: 40px;
+    margin-bottom: 15px;
+    float: none;
+  }
+
+
+
+  .redes{
+    width: 80%;
+    float: none;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .redessociales{
+    width: 100%;
+    padding-left:35%;
+    padding-right:20%;
+  }
+
+  .logos{
+    width: 80%;
+    height: 90px;
+    float: none;
+    margin: auto;
+    margin-bottom: 1px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  /* Configuracion de la pagina descripcion*/
+  
+
+  .listaImgCenter{
+    padding-left: 15%;
+  }
+
+
+  .descripcion{
+    width: 100%;
+    height: 480px;
+    background-image: none;
+  }
+
+
+  .listaImgCenter{
+    padding-left: 15%;
+    padding-bottom: 50px;
+  }
+  .listaImg p{
+    margin-bottom: 30px;
+  }
+
+  .listaImg{
+    background-image: url(../Img/fondeDescripcion.png);
+    width: 100%;
+    padding-top: 5%;
+    float: none;
+    margin-bottom: 30px;
+  }
+  .listaImg p{
+    margin-top: 19px;
+    margin-left: 53px;
+    font-size: 12px;
+  }
+
+  .contenido{
+    background-image: url(../Img/fondeDescripcion.png);
+    width: 100%;
+    float: none;
+    padding-bottom: 50px;
+  }
+
+  .contenido p{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    font-size: 12px;
+  }
+
+  .contenido h2{
+    font-size: 14px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .piePagina{
+    font-size: 14px;
+    margin-top: 30%;
+  }
+
+
+}
