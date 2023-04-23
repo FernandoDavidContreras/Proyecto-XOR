@@ -1,9 +1,16 @@
 /*Cuerpo*/
+html{
+  background-color: #1E2025;
+}
+
 body{
   font-family: Serif;
   background-color: #1E2025;
   margin: 0;
+  height: 100%;
 }
+
+
 
 /*Pagina home*/
 
@@ -90,53 +97,37 @@ body{
   padding-top: 0px;
   text-align: center;
   color: #00B3A4;
+  background-color: #1E2025;
 }
 
 
 /*Estilos para la barra de navegacion*/
+.text-a {
+  --bs-text-opacity: 1;
+  color: #00B3A4 !important;
+}
+
+.text-a:hover{
+  color: #ffffff !important;
+}
 
 .principal{
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  background-color: #1E2025;
+}
+
+.text-div{
+  margin-left: 90%;
+  background-color: #1E2025
 }
 
 .img img{
   margin-top: 40px;
-  padding-left: 60px;
+  margin-bottom: 20px;
+  padding-left: 20px;
   width: 10em;
-
 }
 
-.opciones {
-  height:50px;
-  background-color: #26282d;
-  margin-top: 20px;
-}
-
-.lista{
-  padding-top: 20px;
-  margin: 0;
-  background-color: #26282d;
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  letter-spacing: 1px;
-  font-weight: 700;
-}
-
-.lista a{
-  font-size: 14px;
-  color: #00B3A4;
-  text-decoration: none;
-}
-
-.lista a:hover{
-  color: #ffffff;
-}
-
-
-.lista a:active{
-  color: #ffffff;
-}
 
 /*------------------------------*/
 
@@ -359,11 +350,13 @@ body{
 /*Estilo Descipcion*/
 
 .descripcion {
-  height: 350px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  height: 370px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
   background-image:url(../Img/imgDescripcion.webp);
-  background-size: contain;
+  background-size: 100%;
+  background-color: #26282d;
 }
 
 .listaImg{
@@ -394,6 +387,7 @@ body{
   width: 40%;
   margin: auto;
   padding-top: 3%;
+  padding-bottom: 10%;
 }
 
 .contenido p{
@@ -413,9 +407,12 @@ body{
 
 .datos{
   width: 100%;
-  height: 200px;
+  height: 500px;
   float: left;
-  margin-bottom: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 8%;
+  background-color: #26282d;
 }
 .redes{
   width: 45%;
@@ -424,6 +421,7 @@ body{
   padding: 0;
   float: left;
   height: 438px;
+  color: #00B3A4;
   background-image: url(../Img/redesSocialesFondo.webp);
 }
 
@@ -506,6 +504,12 @@ body{
   background-image: url(../Img/gorjeo.png);
 }
 
+
+.imagen1,.imagen2,.imagen3,.imagen4{
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
 .redessociales{
   padding-left:25%;
   padding-right:6px;
@@ -513,7 +517,7 @@ body{
 
 
 .logos img{
-  width: 50%;
+  width: 70%;
   padding-top:18% ;
   padding-left:25% ;
 }
@@ -525,6 +529,7 @@ body{
   margin-right: 4%;
   padding: 0;
   float: left;
+  background-repeat: no-repeat;
   background-image: url(../Img/fondoNegroBurbujas.webp);
 }
 
@@ -532,6 +537,7 @@ body{
 
 
 /*Configuracion de descripcion para ser responsiva*/
+
 @media (min-width: 900px) and (max-width: 1380px)  {
   .descripcion{
     background-image: url(../Img/fondeDescripcion.png);
@@ -545,17 +551,38 @@ body{
 
   .home1{
     width: 80%;
+    height: 700px;
     float: none;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
   .home2{
     width: 80%;
+    height: 700px;
     float: none;
     margin: auto;
-    margin-bottom: 40px;
-    background-size: 80%;
+    margin-bottom: 10px;
   }
+
+  .home2 h2{
+    padding-top: 19%;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #00B3A4;
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+
+
+  .home2 p{
+    padding-top: 2%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #00B3A4;
+    padding-right: 14%;
+    padding-left: 14%;
+  }
+
 
   /* Configuracion de la pagina contacto*/
 
@@ -582,6 +609,12 @@ body{
     padding-right:0px;
   }
 
+  .logos img{
+    width: 65%;
+    padding-top:18% ;
+    padding-left:25% ;
+  }
+
   .logos{
     width: 80%;
     float: none;
@@ -596,8 +629,51 @@ body{
 @media (min-width: 650px) and (max-width: 900px)  {
 
   .descripcion{
+    height: 650px;
     background-image: url(../Img/fondeDescripcion.png);
   }
+
+  /*Estilos de la pagina principal*/
+  .home{
+    margin-top: 0;
+    margin-bottom: 70px;
+    height: 80%;
+  }
+
+  .home1{
+    width: 80%;
+    height: 400px;
+    float: none;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .home2{
+    width: 80%;
+    height: 400px;
+    float: none;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .home2 h2{
+    padding-top: 19%;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #00B3A4;
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+
+
+  .home2 p{
+    padding-top: 2%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #00B3A4;
+    padding-right: 14%;
+    padding-left: 14%;
+  }
+
 
 
   /* Configuracion de la pagina contacto*/
@@ -645,9 +721,7 @@ body{
   .contenido{
     background-image: url(../Img/fondeDescripcion.png);
     width: 100%;
-    height: 50%;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    height: 200px;
     float: none;
   }
 
@@ -663,7 +737,7 @@ body{
   }
 
   .piePagina{
-    margin-top: 200px;
+    padding-top: 2%;
   }
 
 }
@@ -673,10 +747,72 @@ body{
 @media (min-width: 410px) and (max-width: 650px)  {
   .descripcion{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-image: none;
     margin-top: 0;
+    padding-bottom: 2%;
   }
+
+  /*Barra de navegacion*/
+  .text-div{
+    margin-left: 85%;
+    background-color: #1E2025
+  }
+
+
+  /*Estilos de la pagina principal*/
+  .home{
+    margin-top: 0;
+    margin-bottom: 70px;
+    height: 80%;
+  }
+
+  .home1{
+    width: 80%;
+    height: 300px;
+    float: none;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .home2{
+    width: 80%;
+    height: 300px;
+    float: none;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+
+  .home1 h2{
+    font-size: 1.3em;
+  }
+
+  .home1 p{
+    font-size: 1em;
+  }
+
+  .home2 h2{
+    padding-top: 19%;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #00B3A4;
+    padding-right: 4%;
+    padding-left: 4%;
+    font-size: 1.3em;
+  }
+
+
+  .home2 p{
+    padding-top: 2%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #00B3A4;
+    padding-right: 14%;
+    padding-left: 14%;
+    font-size: 1em;
+  }
+
+
 
 
   /* Configuracion de la pagina contacto*/
@@ -700,8 +836,8 @@ body{
   .imagen1,.imagen2,.imagen3,.imagen4{
     width: 45px;
     height: 45px;
-    padding-right: 10px;
-    float: left;
+    margin-left: 40%;
+    float: none;
   }
 
 
@@ -778,6 +914,66 @@ body{
 
 
 @media (min-width: 220px) and (max-width: 410px)  {
+  .text-div{
+    margin-left: 74%;
+    background-color: #1E2025
+  }
+
+  /*Estilos de la pagina principal*/
+  .home{
+    margin-top: 0;
+    margin-bottom: 70px;
+    height: 80%;
+  }
+
+  .home1{
+    width: 80%;
+    height: 240px;
+    float: none;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .home2{
+    width: 80%;
+    height: 240px;
+    float: none;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+
+  .home1 h2{
+    font-size: 1em;
+  }
+
+  .home1 p{
+    font-size: 0.6em;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .home2 h2{
+    padding-top: 19%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #00B3A4;
+    padding-right: 4%;
+    padding-left: 4%;
+    font-size: 1em;
+  }
+
+
+  .home2 p{
+    padding-top: 2%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #00B3A4;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 0.6em;
+  }
+
+
 
   /* Configuracion de la pagina contacto*/
   .datos{
@@ -834,6 +1030,7 @@ body{
   }
 
   /* Configuracion de la pagina descripcion*/
+
   .listaImgCenter{
     padding-left: 15%;
   }
@@ -841,7 +1038,7 @@ body{
 
   .descripcion{
     width: 100%;
-    height: 480px;
+    height: 630px;
     background-image: none;
   }
 
@@ -886,14 +1083,73 @@ body{
   }
 
   .piePagina{
-    margin-top: 37%;
+    padding-top: 5%;
   }
-
 
 }
 
 
 @media (max-width: 220px)  {
+  .text-div{
+    margin-left: 60%;
+    background-color: #1E2025
+  }
+
+
+  /*Estilos de la pagina principal*/
+  .home{
+    margin-top: 0;
+    margin-bottom: 70px;
+    height: 80%;
+  }
+
+  .home1{
+    width: 80%;
+    height: 150px;
+    float: none;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .home2{
+    width: 80%;
+    height: 150px;
+    float: none;
+    margin: auto;
+    margin-bottom: 0px;
+  }
+
+
+  .home1 h2{
+    font-size: 0.7em;
+  }
+
+  .home1 p{
+    font-size: 0.3em;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .home2 h2{
+    padding-top: 19%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #00B3A4;
+    padding-right: 4%;
+    padding-left: 4%;
+    font-size: 0.7em;
+  }
+
+
+  .home2 p{
+    padding-top: 2%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #00B3A4;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 0.3em;
+  }
+
 
 
   /* Configuracion de la pagina contacto*/
@@ -961,7 +1217,7 @@ body{
 
   .descripcion{
     width: 100%;
-    height: 480px;
+    height: 610px;
     background-image: none;
   }
 
@@ -984,7 +1240,7 @@ body{
   .listaImg p{
     margin-top: 19px;
     margin-left: 53px;
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .contenido{
@@ -1009,7 +1265,7 @@ body{
 
   .piePagina{
     font-size: 14px;
-    margin-top: 30%;
+    padding-top: 10%;
   }
 
 
