@@ -453,6 +453,58 @@ body{
 }
 /*Fin Estilo Servicio*/
 
+/*Estilo Proyecto*/
+.cuerpoProyectos{
+  width: 100%;
+  height: 0px;
+  background-color: #26282D;
+}
+.tituloP{
+  width: 100%;
+  height: 20%;
+}
+.contenidoProyecto{
+  width: 100%;
+  height: 80%;
+}
+.cardsProyectos{
+  width: 95%;
+  height: 100%;
+}
+.cardP1, .cardP2, .cardP3{
+  width: 100%;
+  height: 100%;
+}
+.ftPro1, .ftPro2, .ftPro3{
+  height: 94%;
+}
+@media (min-width: 769px) {
+  .cuerpoProyectos{
+    height: auto;
+  }
+  .cardsProyectos{
+    margin: 5%;
+    margin-top: -5%;
+  }
+  .cardP1, .cardP2, .cardP3{
+    width: 33.33%;
+    height: 33.33%;
+    float: left;
+  }
+  .ftPro1, .ftPro2, .ftPro3{
+    margin: 2%;
+  }
+}
+@media (max-width: 768px) {
+  .cuerpoProyectos{
+    height: auto;
+  }
+  .ftPro1, .ftPro2, .ftPro3{
+    width: 100%;
+  }
+}
+
+/*Fin Estilo Proyecto*/
 
 /* Estilo rama fernando*/
 
