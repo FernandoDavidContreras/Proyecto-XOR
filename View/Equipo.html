@@ -7,78 +7,128 @@
     
     <title>Equipo</title>
 
-    <link rel="stylesheet" href="estiloequipo.css">
+    <link rel="stylesheet" href="../Model/Css/Style.css">
+    <!-- Link para acceder a bostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head >
 <body>
-    <div class="principal">
+     <!-- Barra de Navegacion -->
+     <div class="principal">
         <div class="img">
-            <a href="index.html">
-                <img src="IMAGENES/logo texto.png" alt="" >
+            <a href="../index.html">
+                <img src="../Model/Img/logo texto.png" alt="">
             </a>
         </div>
-        <nav class = " opciones">
-            <ul class = "lista">
-                <a href="Descripcion.html">Descripción</a>
-                <a href="">Servicios</a>
-                <a href="">Equipo</a>
-                <a href="">Proyectos</a>
-                <a href="">Clientes</a>
-                <a href="">El Fruto</a>
-                <a href="">Contacto</a>
-            </ul>
+        
+    <!-- Barra de navaegacion hecha con bootstrap-->
+        <nav class="navbar navbar-expand-lg" style="background-color: #26282d;">
+            <div class="container-fluid">
+                <button class="navbar-toggler text-div" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation" style="background-color: hsl(0, 0%, 100%); ">
+                    <span class="navbar-toggler-icon" style="background-color: #ffffff;"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-a" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-a" aria-current="page" href="Descripcion.html">Descripción</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-a" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-a" href="Equipo.html">Equipo</a>
+                        </li>
+        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-a" href="#">Proyectos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-a" href="#">Clientes</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-a" href="Futuro.html">Futuro</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-a" href="Contacto.html">Contacto</a>
+                        </li>
+        
+                    </ul>
+        
+                </div>
+            </div>
         </nav>
     </div>
+    <!--/Barra de Navegacion -->
 
-
-
-    <div class="genim">
-        <div class="textcuatro">
-            <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                Ing. Hugo Lucas <br>
-                CO-founder: UX / UI developer <br>
-                hdlucasy@xortech.dev
-            </p>
+    <div class="cuerpoEquipo">
+        <div class="tituloE">
+            <h5 class="txtTituloF">NUESTRO EQUIPO</h5>
         </div>
-        <div class="text">
-            <p style = "font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                Ing. Margarita Amézsquita <br>
-                COO. <br>
-                mamezquita@xortech.dev
-            </p>
-        </div>
+        <div class="contenidoEquipo">
+            <div class="cardEquipo">
+                <div class="integrantes">
+                    <div class="Integrante1 arr">
+                        <img class="ImgIntegrante" src="../Model/Img/margarita amezquita.jpg" alt="">
+                        <p class="infoIntegrante" style = "font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                            Ing. Margarita Amézsquita <br>
+                            COO. <br>
+                            mamezquita@xortech.dev
+                        </p>
+                    </div> 
 
-        <img class="imggeneral" src="IMAGENES/GRUPALFINAL.png"  alt=""  >
+                    <div class="Integrante2 arr">
+                        <img class="ImgIntegrante" src="../Model/Img/Juan pablo.jpg" alt="">
+                        
+                        <p class="infoIntegrante" style = "font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                            Ing. Juan Pablo Monroy <br>
+                            CO-founder: beackend developer <br>
+                            jpmonroy@xortech.dev
+                        </p>
+                    </div>
 
-        <div class="texttres">
-            <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                Ing. Juan Miguel de León <br>
-                CO-founder: frontend developer <br>
-                jmdeleon@xortech.dev
-            </p>
-        </div>
-        <div class="textdos">
-            <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                Ing. Juan Pablo Monroy <br>
-                CO-founder: beackend developer <br>
-                jpmonroy@xortech.dev 
-            </p>
-        </div>
-    </div>   
-    
-    <div class="final">
-        <footer>
-            !XOR <br>
-            Equipo
-            <div class="copyr">
-                Equipo umisumi <br>
-                ©2023 por !XOR
+                    <div class="Integrante3 ab">
+                        <img class="ImgIntegrante" src="../Model/Img/juan miguel.jpg" alt="">
+                        <p class="infoIntegrante" style = "font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                            Ing. Juan Miguel de León <br>
+                            CO-founder: frontend developer <br>
+                            jmdeleon@xortech.dev
+                        </p>
+                    </div>
+
+                    <div class="Integrante4 ab">
+                        <img class="ImgIntegrante" src="../Model/Img/hugo daniel.jpg" alt="">
+                        <p class="infoIntegrante" style = "font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                            Ing. Hugo Lucas <br>
+                            CO-founder: UX / UI developer <br>
+                            hdlucasy@xortech.dev
+                        </p>
+                    </div>
+
+                </div> 
+
             </div>
-            <div class="cooperadores">
-                Fernando Contreras Oswaldo Matul    Alejando      Josue Orozco
-            </div>
-        </footer>
-
+        </div>
     </div>
-    
+
+    <!--Footer-->
+    <div class="piePagina">
+        <h3>!XOR</h3> 
+        <p>info@mysite.com</p> 
+        <p>Fernando Contreras </p>
+        <p>Alejandro Medina </p>
+        <p>Josué Orozco </p>
+        <p>Oswaldo1 </p>
+        <p>©2023 por !XOR</p>
+      </div>
+    <!--/Footer-->
+
+    <!-- Script de javascrip de navaegacion hecha con bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+ 
 </body>
 </html>
